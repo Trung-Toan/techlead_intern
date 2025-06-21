@@ -35,7 +35,7 @@ public class CheckNumber {
      * @return the parsed integer value if valid
      * @throws IllegalArgumentException if the input is null, empty, or not a valid integer
      */
-    public static int isIntegerNumber(String number) {
+    public static int parseIntegerNumber(String number) {
         checkNullOrEmptyNumber(number);
         try {
             return Integer.parseInt(number);
@@ -51,7 +51,7 @@ public class CheckNumber {
      * @return the parsed double value if valid
      * @throws IllegalArgumentException if the input is null, empty, or not a valid double
      */
-    public static long isLongNumber(String number) {
+    public static long parseLongNumber(String number) {
         checkNullOrEmptyNumber(number);
         try {
             return Long.parseLong(number);
@@ -67,7 +67,7 @@ public class CheckNumber {
      * @return the parsed double value if valid
      * @throws IllegalArgumentException if the input is null, empty, or not a valid double
      */
-    public static double isDoubleNumber(String number) {
+    public static double parseDoubleNumber(String number) {
         checkNullOrEmptyNumber(number);
         number = number.replace(",", ".");
         try {
@@ -84,7 +84,7 @@ public class CheckNumber {
      * @return the parsed float value if valid
      * @throws IllegalArgumentException if the input is null, empty, or not a valid float
      */
-    public static float isFloatNumber(String number) {
+    public static float parseFloatNumber(String number) {
         checkNullOrEmptyNumber(number);
         number = number.replace(",", ".");
         try {

@@ -119,11 +119,10 @@ public class Level1 {
 //            System.out.println("Length = " + new Level1().stringLength(""));
 //            System.out.println("Square = " + new Level1().square("5.3"));
 //            System.out.println("Largest Number = " + new Level1().largestNumber(List.of("10", "20", "5.3", "100", "50")))
-//            System.out.println("Shortest String = " + new Level1().shortestString(List.of("apple", "banana", "kiwi", "pear")));
-//            System.out.println("Shortest String = " + new Level1().shortestString(List.of("apple", "banana", "kiwi", "pear")));
+            System.out.println("Shortest String = " + new Level1().shortestString(List.of("apple", "banana", "kiwi", "pear")));
 //            System.out.println("Sorted Numbers = " + new Level1().sortNumbers(List.of("10", "20", "5.3", "100", "50")));
 //            System.out.println("Sorted Strings = " + new Level1().sortStrings(List.of("apple", "banana", "kiwi", "pear")));
-//            System.out.println("Median = " + new Level1().median(List.of("10", "20", "5.3", "100", "50")));
+            System.out.println("Median = " + new Level1().median(List.of("10", "20", "5.3", "100", "50")));
 //            System.out.println("Word Count = " + new Level1().wordCount("Hello world! This is a test."));
 //            System.out.println("Count of strings with letter 'a' = " + new Level1().countStringsWithLetterA(List.of("apple", "banana", "kiwi", "pear", "grape")));
         } catch (NumberFormatException e) {
