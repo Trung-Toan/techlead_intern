@@ -10,6 +10,7 @@ public class ProcessNumber {
             throw new IllegalArgumentException("Input cannot be null or empty");
         }
     }
+
     public static BigDecimal ndLargestNumber(int nd, List<String> numbers) {
         checkNullOrEmptyNumber(numbers);
         // sort the list in descending order
@@ -87,7 +88,7 @@ public class ProcessNumber {
         return findMedian(sortedNumbers);
     }
 
-    private static List<BigDecimal> parseNumber(List<String> numbers) {
+    public static List<BigDecimal> parseNumber(List<String> numbers) {
         List<BigDecimal> parseNumber = new ArrayList<>();
         for (String number : numbers) {
             parseNumber.add(CheckNumber.parseNumber(number));
